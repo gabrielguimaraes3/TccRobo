@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Robo.Models\Robo.Models.csproj" />
+    <ProjectReference Include="..\Robo.Repositories\Robo.Repositories.csproj" />
+    <ProjectReference Include="..\Robo\Robo.Buscar.csproj" />
+  </ItemGroup>
+
+</Project>

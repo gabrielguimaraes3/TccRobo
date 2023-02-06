@@ -1,0 +1,7 @@
+/****** Script do comando SelectTopNRows de SSMS  ******/
+ CREATE TABLE Produto(
+    NomeProduto VARCHAR(255) NOT NULL,
+    Preco FLOAT NOT NULL,
+    Link VARCHAR(500) NOT NULL,
+    DataBusca DATE NOT NULL,
+	PrecoAntigo FLOAT );
